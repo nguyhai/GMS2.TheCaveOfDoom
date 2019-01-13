@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "7f6defa7-ed13-4d23-a49e-d6b022f1f628",
+            "Value": {
+                "id": "282c99d9-695d-4749-97d3-89680fe7c0c1",
+                "resourcePath": "objects\\o_player\\o_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "802d74d8-7cf7-41aa-9887-7cbeda2661ab",
             "Value": {
                 "id": "4a656a35-3f1f-4cd8-93c6-7e55ddbaa73e",
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "c35d6cfa-88bc-4eb6-8c73-a1243fc6524d",
+            "Value": {
+                "id": "d75dcfbc-5e0e-4dfd-83c8-371a46b72e73",
+                "resourcePath": "views\\c35d6cfa-88bc-4eb6-8c73-a1243fc6524d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c7767359-94a5-4602-9382-e8c79d393b31",
             "Value": {
                 "id": "e262bdf9-ef98-4ec6-b90e-7299a8b5ee19",
@@ -202,7 +218,7 @@
             "Key": "de770067-e9d4-442c-aa95-97af4d959f62",
             "Value": {
                 "id": "ed5fb1af-0971-4f38-8625-9e85edf38e7a",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\r_base\\r_base.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -212,6 +228,22 @@
                 "id": "7f5f190b-49fc-45ba-8b79-5fa13794c816",
                 "resourcePath": "views\\e2889da6-28e9-4dac-81df-3613d445b942.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e3d18f4f-1791-4c57-97b6-2fedcc8502ac",
+            "Value": {
+                "id": "67e0f68e-3c8b-4582-8b1c-dd15959ce329",
+                "resourcePath": "objects\\o_solid\\o_solid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e60bf67c-fb2f-4313-b3f9-868dd40fdc6f",
+            "Value": {
+                "id": "b9e276e9-5c63-48c9-9c65-83143303585e",
+                "resourcePath": "sprites\\s_solid\\s_solid.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
