@@ -1,3 +1,5 @@
+depth = -y;
+
 event_user(state);
 
 // Set sprite index

@@ -1,11 +1,15 @@
 initialize_movement_entity(0.5, 1, o_solid);
+initialize_hurtbox_entity();
+
 image_speed = 0;
 accelerationSpeed = 0.5;
 maxSpeed = 1.5;
 
-
 directionFacing = dir.right;
 direction_ = 0
+
+rollDirection = 0;
+rollSpeed = 2;
 
 global.playerHealth = 4;
 
@@ -18,7 +22,8 @@ enum item{
 
 enum player {
 	move,
-	sword
+	sword,
+	evade
 }
 
 enum dir {
@@ -42,3 +47,9 @@ sprite_[player.sword, dir.right] = s_player_attack_right;
 sprite_[player.sword, dir.up] = s_player_attack_up;
 sprite_[player.sword, dir.down] = s_player_attack_down;
 sprite_[player.sword, dir.left] = s_player_attack_right;
+
+// Evade lookup table
+sprite_[player.evade, dir.right] = s_player_roll_right;
+sprite_[player.evade, dir.up] = s_player_roll_up;
+sprite_[player.evade, dir.down] = s_player_roll_down;
+sprite_[player.evade, dir.left] = s_player_roll_right;
