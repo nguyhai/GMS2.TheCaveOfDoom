@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "27d0056b-0234-4ee9-a18d-39e4e3c5301b",
+            "Value": {
+                "id": "978840ee-a351-4f0a-a5a4-b32589bb408e",
+                "resourcePath": "sounds\\a_swipe\\a_swipe.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "291082c7-b8ed-4e2e-87ce-e19296780b99",
             "Value": {
                 "id": "1908be3f-9159-40c5-b6c7-c9d1f27439c3",
@@ -108,6 +116,14 @@
                 "id": "90855f55-4d8b-4a4a-8497-6718019686b4",
                 "resourcePath": "scripts\\set_movement\\set_movement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2fff34e2-54f5-41f0-bf90-f4dcb199f092",
+            "Value": {
+                "id": "dbd8f178-2444-4492-ae3f-311f4a7ca373",
+                "resourcePath": "objects\\o_camera\\o_camera.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -143,6 +159,14 @@
             }
         },
         {
+            "Key": "4badeec1-7338-463d-9ab0-e30670a77de8",
+            "Value": {
+                "id": "a3d198cd-5236-4f49-860e-840bae1760fd",
+                "resourcePath": "sprites\\s_death_effect\\s_death_effect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4d7ada37-f37b-4c1f-aaa8-8a12f0d7cf3c",
             "Value": {
                 "id": "b53e8efd-11d6-456b-9e1b-53929b77cd87",
@@ -156,6 +180,14 @@
                 "id": "2cdbf322-d265-4cbe-9388-b52d1c64c946",
                 "resourcePath": "views\\549eb857-b8ef-4f7d-a026-1f0ccce6670b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "54a4d7b8-a803-47d2-90ce-b787d4413bd0",
+            "Value": {
+                "id": "15739df9-e37d-44f8-907a-7d5d93025ed3",
+                "resourcePath": "scripts\\draw_self_flash\\draw_self_flash.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -391,6 +423,14 @@
             }
         },
         {
+            "Key": "b8c323cd-52b1-4f9a-a172-b1fe99b0ac7b",
+            "Value": {
+                "id": "27b8445d-2b9c-4ec7-bc01-1535ef638237",
+                "resourcePath": "scripts\\round_n\\round_n.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b9e9a7fd-456f-4e0b-aa1d-ba6559979920",
             "Value": {
                 "id": "2bca0a68-0cbb-4a69-9e01-bef90568c141",
@@ -411,6 +451,14 @@
             "Value": {
                 "id": "b5ea5177-c8a3-4cdd-b8e3-1470e62a2fc1",
                 "resourcePath": "sprites\\s_sword_hitbox\\s_sword_hitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bea16821-62b2-4418-9df4-69c7892f2dd0",
+            "Value": {
+                "id": "017c4fca-cb21-444d-a5c2-7e6ef0424ec7",
+                "resourcePath": "sprites\\s_hit_effect\\s_hit_effect.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -503,6 +551,14 @@
             }
         },
         {
+            "Key": "d86f390e-8f94-4a8b-8fbc-3545fb5cd092",
+            "Value": {
+                "id": "81fec062-e793-46a2-a181-7938ef88fce8",
+                "resourcePath": "views\\d86f390e-8f94-4a8b-8fbc-3545fb5cd092.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dd70943a-39b8-497f-982f-a1d6608cdc34",
             "Value": {
                 "id": "2f1f502d-ad28-46c3-9143-88b5a4773607",
@@ -556,6 +612,14 @@
                 "id": "2efae1c4-56e5-4007-a247-4451af9e19fa",
                 "resourcePath": "sprites\\s_porcupine_attack\\s_porcupine_attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e7ce0122-bbe9-4c57-b8fe-906f0815f7c3",
+            "Value": {
+                "id": "6c4be11d-a8dc-4167-ab21-35325c3b4efa",
+                "resourcePath": "sounds\\a_hit\\a_hit.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -662,14 +726,16 @@
         "ea6c31a3-c2bc-4a07-8065-5dd6449754eb",
         "d505ab3a-2a93-4577-823e-15195d53307e",
         "f2692ca7-2bf7-431b-ab78-9d46ab59d862",
-        "ebf15ea5-c04a-4d97-898c-67939e14494a",
         "5f392e65-4e33-42c9-b911-25f97d4ea2ed",
         "ce3d9231-0872-4943-b34b-9a56adba3411",
         "e4081695-7ff4-4495-af83-a83238693646",
         "8e97cb8b-8ba7-4b09-a0bc-12e4c6708e32",
         "0e6c4f28-c703-46c5-9ac4-fbe267d043ef",
         "634cb50c-5e59-44ff-bd11-81b91140f3f5",
-        "a4d6f0e0-306e-4657-8719-e8e9a13c8ca5"
+        "a4d6f0e0-306e-4657-8719-e8e9a13c8ca5",
+        "54a4d7b8-a803-47d2-90ce-b787d4413bd0",
+        "ebf15ea5-c04a-4d97-898c-67939e14494a",
+        "b8c323cd-52b1-4f9a-a172-b1fe99b0ac7b"
     ],
     "tutorial": ""
 }
