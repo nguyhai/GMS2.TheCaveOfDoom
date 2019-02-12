@@ -11,8 +11,8 @@ enum porcupine {
 	wait
 }
 
-startingState = porcupine.idle;
-state = startingState;
+starting_state = porcupine.idle;
+state = starting_state;
 
 image_index = 0;
 image_xscale = choose(1, -1);

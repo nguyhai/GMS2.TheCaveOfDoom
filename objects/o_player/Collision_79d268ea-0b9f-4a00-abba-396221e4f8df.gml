@@ -7,4 +7,7 @@ if (hurtbox_entity_can_be_hit_by(other)) {
 	set_movement(direction_, other.knockback);
 	state = player.hit;
 	//event_user(state); removes delay?
+	
+	// Add in hurt sound effect
+	audio_play_sound(a_hurt, 8, false);
 }

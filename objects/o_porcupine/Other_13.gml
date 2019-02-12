@@ -6,8 +6,8 @@ if (animation_hit_frame(1)) {
 	var knockback = 4;
 	var life = 1;
 	
-	// Porcupine is damaging itself with this....
     create_hitbox(s_porcupine_hitbox, x, y - 8, 0, life, [o_player], damage, knockback);
+	audio_play_sound(a_porcupine_attack, 5, false);
 }
 
 // Exit attack state
