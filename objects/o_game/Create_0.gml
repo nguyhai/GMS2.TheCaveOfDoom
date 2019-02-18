@@ -1,5 +1,7 @@
 global.one_second = game_get_speed(gamespeed_fps);
 
+
+
 // Create Input Object
 instance_create_layer(0,0,"Instances", o_input);
 
@@ -18,13 +20,16 @@ global.player_start_position = i_game_start;
 audio_play_sound(a_bgm_budding_season, 10, true);
 //audio_play_sound(a_music, 10, true);
 
-
-
 // Set the resolution of the GUI layer. 
 var view_width = camera_get_view_width(view_camera[0]);
 var view_height = camera_get_view_height(view_camera[0]);
 
 display_set_gui_size(view_width, view_height);
+
+// Create a variables for pausing
+paused = false;
+paused_sprite = noone;
+paused_sprite_scale = display_get_gui_width() /  view_wport[0];
 
 
 // Set default font using sprite

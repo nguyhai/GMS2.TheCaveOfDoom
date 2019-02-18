@@ -3,6 +3,16 @@
 var gui_height = display_get_gui_height();
 var gui_width = display_get_gui_width();
 
+// Draw our screenshot for the pause function
+if (sprite_exists(paused_sprite)) {
+    draw_sprite_ext(paused_sprite, 0, 0, 0, paused_sprite_scale, paused_sprite_scale, false, c_white, 1);
+	// draw a rectangle too
+	draw_set_alpha(0.6);
+	draw_rectangle_color(0,0, gui_width, gui_height, c_black, c_black, c_black, c_black, false);
+	draw_set_alpha(1);
+}
+
+
 // Need health to stretch if player gets more health
 var hud_right_edge = 3 + global.playerMaxHealth * 15;
 draw_sprite_ext(s_hud, 0, 0, gui_height, hud_right_edge, 1, 0, c_white, 1);
