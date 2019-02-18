@@ -6,11 +6,11 @@ var xInput = o_input.right - o_input.left; // 1-1
 var yInput = o_input.down - o_input.up; 
 var inputDirection = point_direction(0,0,xInput, yInput);
 
-// Attack variables
-var attackInput = o_input.action_one_pressed;
+//// Attack variables
+//var attackInput = o_input.action_one_pressed;
 
-// Evade Variables
-var evadeInput = o_input.action_two_pressed;
+//// Evade Variables
+//var evadeInput = o_input.action_two_pressed;
 
 rollDirection = directionFacing * 90;
 
@@ -39,16 +39,22 @@ if (xInput == 0) && (yInput == 0) { // If no keys are pressed, stand still
 	rollDirection = directionFacing * 90;
 }
 
-if (attackInput == true) {
-	image_index = 0; // Start from first frame of the attack
-	state = player.sword;
-}
+inventory_use_item(o_input.action_one_pressed, global.item[0]);
+inventory_use_item(o_input.action_two_pressed, global.item[1]);
 
-if (evadeInput == true) {
-	image_index = 0; // Start from first frame of the attack
-	state = player.evade;
-}
+
+
+
+//if (attackInput == true) {
+//	image_index = 0; // Start from first frame of the attack
+//	state = player.sword;
+//}
+
+//if (evadeInput == true) {
+//	image_index = 0; // Start from first frame of the attack
+//	state = player.evade;
+//}
 
 
 // Call movement script - This script gets the parameters from initialize_movement_entity in create
-move_movement_entity(false)
+move_movement_entity(false);

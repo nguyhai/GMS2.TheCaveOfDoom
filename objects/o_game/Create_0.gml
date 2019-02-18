@@ -1,7 +1,5 @@
 global.one_second = game_get_speed(gamespeed_fps);
 
-
-
 // Create Input Object
 instance_create_layer(0,0,"Instances", o_input);
 
@@ -36,3 +34,16 @@ paused_sprite_scale = display_get_gui_width() /  view_wport[0];
 var font_string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ.abcdefghijklmnopqrstuvwxyz1234567890>,!':-+";
 global.font = font_add_sprite_ext(s_font, font_string, true, 1);
 draw_set_font(global.font);
+
+// Create an array for our selected items
+global.item[0] = noone;
+global.item[1] = noone;
+
+// Create the inventory
+item_index = 0;
+inventory_create(6);
+inventory_add_item(o_ring_item);
+inventory_add_item(o_sword_item);
+inventory_add_item(o_bomb_item);
+
+

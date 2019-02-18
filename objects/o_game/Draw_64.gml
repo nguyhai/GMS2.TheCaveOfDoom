@@ -33,3 +33,7 @@ var _y = gui_height - 16 + 4;
 // Draw the gem number
 draw_sprite(s_gem, 0, _x - 16, _y + 7);
 draw_text(_x - 8, _y - 1, gem_string);
+
+// Draw inventory
+inventory_draw(4, 36);
+
