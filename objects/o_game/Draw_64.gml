@@ -12,9 +12,8 @@ if (sprite_exists(paused_sprite)) {
 	draw_set_alpha(1);
 }
 
-
 // Need health to stretch if player gets more health
-var hud_right_edge = 3 + global.playerMaxHealth * 15;
+var hud_right_edge = max(3 + global.playerMaxHealth * 15, 2 + global.playerMaxStamina * 17);
 draw_sprite_ext(s_hud, 0, 0, gui_height, hud_right_edge, 1, 0, c_white, 1);
 draw_sprite(s_hud_edge, 0, hud_right_edge, gui_height);
 
@@ -22,6 +21,12 @@ draw_sprite(s_hud_edge, 0, hud_right_edge, gui_height);
 for (var i = 0; i < global.playerMaxHealth; i++) {
     var filled = i < global.playerHealth;
 	draw_sprite(s_heart_ui, filled, 4 + 15 * i, gui_height - 29);
+}
+
+// Draw the stamina
+for (var i = 0; i < global.playerMaxStamina; i++) {
+    var filled = i < global.playerStamina;
+	draw_sprite(s_stamina_ui, filled, 4 + 17 * i, gui_height - 17);
 }
 
 // Draw the gems now. Converting our gem number to a string so we can print it on the screen

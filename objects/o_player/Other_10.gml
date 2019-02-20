@@ -42,9 +42,6 @@ if (xInput == 0) && (yInput == 0) { // If no keys are pressed, stand still
 inventory_use_item(o_input.action_one_pressed, global.item[0]);
 inventory_use_item(o_input.action_two_pressed, global.item[1]);
 
-
-
-
 //if (attackInput == true) {
 //	image_index = 0; // Start from first frame of the attack
 //	state = player.sword;

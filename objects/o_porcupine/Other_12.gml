@@ -2,12 +2,8 @@
 
 image_speed = 0.5;
 
-var xSpeed = lengthdir_x(speed_, direction_);
-
-// Make it face correct direction
-if (xSpeed != 0) {
-    image_xscale = sign(xSpeed);
-}
+// Set sprite direction
+set_sprite_facing();
 
 if (alarm[1] <= 0)  { // If our alarm is not running, apply friction
     apply_friction_to_movement_entity();

@@ -13,12 +13,12 @@ if (paused) {
 	    global.item[0] = global.inventory[item_index];
 		audio_play_sound(a_menu_select, 3, false);
 	}
-		if (o_input.action_two_pressed) {
+	
+	if (o_input.action_two_pressed) {
 	    global.item[1] = global.inventory[item_index];
 		audio_play_sound(a_menu_select, 3, false);
 	}
-	
-	
+
 }
 
 
