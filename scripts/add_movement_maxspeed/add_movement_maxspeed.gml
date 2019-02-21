@@ -1,6 +1,9 @@
 ///@arg direction
 ///@arg acceleration
 ///@arg max_speed
+
+// SO this basically is to get the max speed, LOL. Do we even need this? It's just basically for acceleration
+
 var _direction = argument0;
 var _acceleration = argument1;
 var _max_speed = argument2;

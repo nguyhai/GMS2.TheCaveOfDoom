@@ -9,7 +9,7 @@ if (animation_hit_frame(1)) {
 	var knockback = 8;
 	
 	// Assigning our hitbox to a variable so we can make further modifications to it. 
-	var hitbox = create_hitbox(s_sword_hitbox,x,y,angle, life, [o_enemy_parent, o_grass], damage,knockback);
+	var hitbox = create_hitbox(s_sword_hitbox,x,y,angle, life, [o_enemy_parent, o_grass, o_bush], damage,knockback);
 	
 	// Add sound effect for sword swipe
 	audio_play_sound(a_swipe, 7, false);

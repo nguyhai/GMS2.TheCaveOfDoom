@@ -1,3 +1,9 @@
+// If it is the title, cancel out the UI
+if room == r_title{
+	exit;
+}
+
+
 // Use this game object to draw all the GUI on the screen
 
 var gui_height = display_get_gui_height();

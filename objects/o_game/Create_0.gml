@@ -47,3 +47,5 @@ inventory_add_item(o_sword_item);
 inventory_add_item(o_bomb_item);
 
 
+// Destroyed Items - Save any objects that have been destroyed already
+global.destroyed = [];
