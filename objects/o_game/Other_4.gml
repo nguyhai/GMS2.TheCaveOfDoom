@@ -1,8 +1,14 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+/// @description 
+if (global.load == true) {
+	//global.player_start_position = noone;
+    global.player_start_position = instance_position(global.start_x, global.start_y, o_start_position);
+	global.load = false;
+}
 // Check to see if start position exists
 if (instance_exists(global.player_start_position)) {
+//if (instance_exists(o_start_position)) {
+
+	
     // Set player persistence = false 
 	if (instance_exists(o_player)) {
 		o_player.persistent = false;
@@ -20,10 +26,6 @@ if (instance_exists(global.player_start_position)) {
 			"Instances",
 			o_player);
 	}
-	
-	
-	
-	global.player_start_position = noone;
 }
 
 

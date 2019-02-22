@@ -13,6 +13,11 @@ global.playerGems = 0;
 
 // Set the very first start position to game start
 global.player_start_position = i_game_start;
+global.start_x = noone;
+global.start_y = noone;
+global.load = false;
+
+
 
 // Game BGM
 audio_play_sound(a_bgm_budding_season, 10, true);
