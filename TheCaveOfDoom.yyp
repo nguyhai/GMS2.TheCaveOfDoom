@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "0da32151-e13c-41ec-9645-ec3e71c092be",
+            "Value": {
+                "id": "66b25247-9ad4-4d13-bd47-1f5ee9669c95",
+                "resourcePath": "scripts\\ini_read_inventory\\ini_read_inventory.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0dd4a422-9d3a-4db2-9f89-8a285bc8848a",
             "Value": {
                 "id": "e747d23f-3c37-4a85-8d12-92707f66c939",
@@ -332,6 +340,14 @@
                 "id": "3eeed060-de5f-4dac-87c0-687154d8acbc",
                 "resourcePath": "sprites\\s_player_attack_right\\s_player_attack_right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "411eaf30-2d16-4ca3-b3b2-4fd3894fd6a5",
+            "Value": {
+                "id": "ddf0dcc3-76bc-42b3-af4c-ab6bbbcef42d",
+                "resourcePath": "scripts\\ini_read_string_array\\ini_read_string_array.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -567,6 +583,14 @@
             }
         },
         {
+            "Key": "7522d75e-beae-4790-9f86-b45ee1f8ba6d",
+            "Value": {
+                "id": "cbfcee41-0047-44a1-912f-ce0245b2b603",
+                "resourcePath": "scripts\\instance_key\\instance_key.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7550b862-aa8d-4b04-81a7-7351b372dd14",
             "Value": {
                 "id": "0a842f42-2c01-4291-a40d-83c3bcd2f776",
@@ -692,6 +716,14 @@
                 "id": "92992b22-8b60-4dd4-bcd0-c52a6435d4ed",
                 "resourcePath": "sprites\\s_inventory_box\\s_inventory_box.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8a67c016-a4c4-40e8-9bdd-8e930c753bf1",
+            "Value": {
+                "id": "06e83dd0-f182-4cb0-9aa8-a62d40faaad2",
+                "resourcePath": "scripts\\ini_write_string_array\\ini_write_string_array.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1055,6 +1087,14 @@
             }
         },
         {
+            "Key": "cf7dd32c-4392-4b4d-96ad-02b43c91de4f",
+            "Value": {
+                "id": "6110485a-c721-4166-9ae6-4d038051b7fd",
+                "resourcePath": "scripts\\ini_write_inventory\\ini_write_inventory.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d505ab3a-2a93-4577-823e-15195d53307e",
             "Value": {
                 "id": "710b4a01-a42c-4be8-b471-5c09836022ee",
@@ -1363,7 +1403,12 @@
         "57bdd95f-3955-402a-b05b-5fbef475abdb",
         "8ce10b3d-1d4f-48ed-825e-abce861a6e43",
         "5e070f8e-e51f-41e7-9473-5b065f13bfbb",
-        "5dc958e0-257a-4a65-ae5e-1e275a1cb689"
+        "5dc958e0-257a-4a65-ae5e-1e275a1cb689",
+        "cf7dd32c-4392-4b4d-96ad-02b43c91de4f",
+        "0da32151-e13c-41ec-9645-ec3e71c092be",
+        "7522d75e-beae-4790-9f86-b45ee1f8ba6d",
+        "8a67c016-a4c4-40e8-9bdd-8e930c753bf1",
+        "411eaf30-2d16-4ca3-b3b2-4fd3894fd6a5"
     ],
     "tutorial": ""
 }

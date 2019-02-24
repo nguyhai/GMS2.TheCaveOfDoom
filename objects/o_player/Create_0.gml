@@ -1,6 +1,8 @@
 initialize_movement_entity(0.5, 1, o_solid);
 initialize_hurtbox_entity();
 
+alarm[1] = global.one_second;
+
 image_speed = 0;
 accelerationSpeed = 0.5;
 maxSpeed = 1.5;
